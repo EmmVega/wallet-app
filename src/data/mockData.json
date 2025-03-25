@@ -1,0 +1,75 @@
+{
+  "balance": 1234.56,
+  "dailyPoints": {
+    "current": 250,
+    "total": 1250,
+    "nextReward": 500
+  },
+  "paymentStatus": {
+    "isPaid": true,
+    "dueDate": "2024-03-15",
+    "amount": 789.45
+  },
+  "transactions": [
+    {
+      "id": "1",
+      "name": "Grocery Store",
+      "amount": -85.50,
+      "date": "2024-03-10T14:30:00",
+      "type": "card_expense",
+      "status": "completed",
+      "icon": "shopping-cart",
+      "iconBackground": "#FF6B6B",
+      "description": "Weekly groceries at Walmart",
+      "authorizedUser": "John Doe"
+    },
+    {
+      "id": "2",
+      "name": "Salary Deposit",
+      "amount": 3500.00,
+      "date": "2024-03-01T09:00:00",
+      "type": "payment",
+      "status": "completed",
+      "icon": "money-bill-wave",
+      "iconBackground": "#4CAF50",
+      "description": "Monthly salary deposit",
+      "authorizedUser": null
+    },
+    {
+      "id": "3",
+      "name": "Restaurant",
+      "amount": -45.75,
+      "date": "2024-03-08T19:15:00",
+      "type": "card_expense",
+      "status": "completed",
+      "icon": "utensils",
+      "iconBackground": "#FFA726",
+      "description": "Dinner at Italian Restaurant",
+      "authorizedUser": "John Doe"
+    },
+    {
+      "id": "4",
+      "name": "Online Shopping",
+      "amount": -129.99,
+      "date": "2024-03-05T16:45:00",
+      "type": "card_expense",
+      "status": "pending",
+      "icon": "shopping-bag",
+      "iconBackground": "#42A5F5",
+      "description": "Electronics purchase from Amazon",
+      "authorizedUser": "John Doe"
+    },
+    {
+      "id": "5",
+      "name": "Utility Bill",
+      "amount": -95.25,
+      "date": "2024-03-03T10:20:00",
+      "type": "card_expense",
+      "status": "completed",
+      "icon": "bolt",
+      "iconBackground": "#7E57C2",
+      "description": "Monthly electricity bill",
+      "authorizedUser": "John Doe"
+    }
+  ]
+} 

@@ -1,0 +1,95 @@
+.transaction-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 12px;
+}
+
+.transaction-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.transaction-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.transaction-content {
+  flex: 1;
+  text-align: left;
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.transaction-title-group {
+  flex: 1;
+}
+
+.transaction-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.transaction-meta {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.transaction-status {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background-color: #FFC107;
+  color: #000;
+}
+
+.transaction-user {
+  font-size: 12px;
+  color: #666;
+}
+
+.transaction-amount {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.transaction-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.transaction-description {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  flex: 1;
+}
+
+.transaction-date {
+  font-size: 12px;
+  color: #999;
+  margin-left: 16px;
+} 

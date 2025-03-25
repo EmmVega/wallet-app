@@ -1,0 +1,24 @@
+.transactions-section {
+  margin-top: 24px;
+}
+
+.transactions-section h2 {
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.transactions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.transaction-card-wrapper {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.transaction-card-wrapper:hover {
+  transform: translateX(4px);
+} 

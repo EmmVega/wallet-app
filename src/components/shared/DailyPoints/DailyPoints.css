@@ -1,0 +1,52 @@
+.daily-points {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.points-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.points-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.points-icon {
+  color: #FFA726;
+}
+
+.points-value {
+  font-size: 16px;
+  color: #666;
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #FFA726;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.points-footer {
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+} 
