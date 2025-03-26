@@ -26,10 +26,10 @@ A mobile-first React application demonstrating clean code practices and modern w
 ## Screenshots
 
 ### Main Screen
-![Main Screen](screenshots/main-screen.png)
+![image](https://github.com/user-attachments/assets/2ef91146-2e4d-4c82-86e0-62836672ae5f)
 
 ### Transaction Details
-![Transaction Details](screenshots/transaction-details.png)
+![image](https://github.com/user-attachments/assets/246cce17-3fdf-48d4-9308-bac37c4c55cd)
 
 ## Project Structure
 ```
